@@ -5,13 +5,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # **Tabla de Contenidos:**
-- [**Tabla de Contenidos:**](#tabla-de-contenidos)
 - [El proyecto <a name="proyecto"></a>](#el-proyecto-)
-  - [Datos](#datos)
 - [Sobre el repositorio <a name="about_repo"></a>](#sobre-el-repositorio-)
-  - [EDA <a name="eda"></a>](#eda-)
-  - [Base de datos <a name="db"></a>](#base-de-datos-)
-  - [Reporte de calidad <a name="reporte"></a>](#reporte-de-calidad-)
+- [Datos](#datos)
 - [Enviroment](#enviroment)
 - [Licencia<a name="license"></a>](#licencia)
 
@@ -21,17 +17,17 @@ Este proyecto está enfocado en el perfil de analista de datos. El objetivo fue 
 - Armar una base de datos.
 - Hacer un dashboard a partir de los datos en la base de datos.
 - Un informe de calidad.
-## Datos
-Los datos proporcionados para este proyecto se pueden descargar de la carpeta de datasets.
+
 # Sobre el repositorio <a name="about_repo"></a>
 En este repositorio se encuentran la mayoría de los requisitos listados anteriormente
-## EDA <a name="eda"></a>
-El EDA, con la transformación exacta, extracción de datos y obtención de datos para el dashboard se encuentra en `EDA.ipynb`.
-##  Base de datos <a name="db"></a>
-La base de datos se encuentra en el archivo .db en la carpeta `database`.
 
-## Reporte de calidad <a name="reporte"></a>
-El reporte de calidad, donde se encuentra un resumen del EDA y la descripción de los campos en el dataset se encuentra en `reporte_calidad.ipynb`
+- El **EDA**, con la transformación exacta, extracción de datos y obtención de datos para el dashboard se encuentra en `EDA.ipynb`.
+- La **base de datos** se encuentra en el archivo .sql en la carpeta `database`.
+- El **reporte de calidad**, donde se encuentra un resumen del EDA y la descripción de los campos en el dataset se encuentra en `reporte_calidad.ipynb`
+
+# Datos
+Los datos proporcionados para este proyecto se encuentran en la carpeta de dataset.
+
 # Enviroment
 Los notebooks requieren Python <= 3.8.13. Primero hay que clonar el repositorio:
 
